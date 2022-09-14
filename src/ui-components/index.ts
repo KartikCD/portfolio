@@ -1,1 +1,1 @@
-export * from './_svgImageContainer/SvgImageContainer';
+export * from "./_svgImageContainer/SvgImageContainer";

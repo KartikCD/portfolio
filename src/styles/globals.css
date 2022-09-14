@@ -19,22 +19,25 @@ html {
 
 /* Optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
-  background: #FF0000;
+  background: #ff0000;
 }
 
 body {
   font-size: 0.697vw;
   background-color: var(--color-background);
   font-family: var(--font-family);
-  transition: background-color 1s;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  /* transition: background-color 1s;
   -webkit-transition: background-color 1s;
   -moz-transition: background-color 1s;
   -ms-transition: background-color 1s;
-  -o-transition: background-color 1s;
+  -o-transition: background-color 1s; */
 }
 
-@media(max-width: 769px) {
-  html, body {
+@media (max-width: 769px) {
+  html,
+  body {
     font-size: 2.6vw;
   }
 }

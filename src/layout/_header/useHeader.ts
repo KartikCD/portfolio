@@ -1,15 +1,15 @@
-import { LayoutContext } from './../_context/LayoutContextProvider';
-import * as React from 'react';
+import * as React from "react";
+import { LayoutContext } from "../_context/LayoutContextProvider";
 
 export default function useHeader() {
-    const { theme, changeTheme } = React.useContext(LayoutContext);
+  const { theme, changeTheme } = React.useContext(LayoutContext);
 
-    const onClick = React.useCallback(() => {
-        changeTheme();
-    }, [changeTheme])
+  const onClick = React.useCallback(() => {
+    changeTheme();
+  }, [changeTheme]);
 
-    return {
-        theme,
-        onClick
-    }
+  return {
+    theme,
+    onClick,
+  };
 }

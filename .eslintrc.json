@@ -45,6 +45,8 @@
 		"no-param-reassign": "error",
 		"no-console": "error",
 		"no-shadow": "off",
+		"jsx-a11y/anchor-is-valid": "off",
+		"react/no-unescaped-entities": "off",
 		"lines-between-class-members": "off",
 		"class-methods-use-this": "off",
 		"no-prototype-builtins": "off",

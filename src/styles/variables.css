@@ -10,6 +10,7 @@
 
     --font-weight-base-light: 300;
     --font-weight-base-regular: 400;
+    --font-weight-base-medium: 500;
 
     /* Background color Light */
     --color-background: var(--color-base-white);

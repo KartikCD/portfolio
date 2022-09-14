@@ -1,0 +1,68 @@
+.container {
+  margin-top: 13.3rem;
+}
+
+.heyText {
+  font-style: normal;
+  font-weight: var(--font-weight-base-light);
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: var(--title-text-color);
+}
+
+.heyText p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.nameText {
+  font-style: normal;
+  font-weight: var(--font-weight-base-medium);
+  font-size: 9.6rem;
+  line-height: 11rem;
+  background: linear-gradient(
+    89.81deg,
+    #9845e8 -1.72%,
+    #33d2ff 54.05%,
+    #dd5789 99.78%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-top: 1.8rem;
+}
+
+.nameText p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.descriptionText {
+  font-style: normal;
+  font-weight: var(--font-weight-base-light);
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  text-align: justify;
+  color: var(--title-text-color);
+  margin-top: 2.4rem;
+}
+
+.descriptionText p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.buttonContainer {
+  margin-top: 6.1rem;
+}
+
+.button {
+  font-style: normal;
+  font-weight: var(--font-weight-base-light);
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  color: var(--title-text-color);
+  text-decoration: none;
+  cursor: pointer;
+}
