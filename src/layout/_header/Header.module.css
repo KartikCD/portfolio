@@ -1,0 +1,40 @@
+.container {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.innerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
+    padding-right: 1.2rem;
+}
+
+.titleText {
+    font-style: normal;
+    font-weight: var(--font-weight-base-light);
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+
+.menubarGridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 3rem;
+}
+
+.svgContainer {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.buttonStyle {
+    padding: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,6 @@
+dist
+node_modules
+*.css.d.ts
+*.generated.ts
+*.generated.d.ts
+*.js

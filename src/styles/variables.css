@@ -1,0 +1,35 @@
+:root {
+    /*--------------------- Colors --------------------- */
+    --color-base-white: #ffffff;
+    --color-base-black: #000000;
+    --color-chinese-black: #111111;
+    --color-eerie-black: #1a1a1a;
+
+    /*--------------------- Font --------------------- */
+    --font-family: Inter;
+
+    --font-weight-base-light: 300;
+    --font-weight-base-regular: 400;
+
+    /* Background color Light */
+    --color-background: var(--color-base-white);
+
+    /* Button Color Light */
+    --button-background-color: var(--color-base-black);
+    --button-text-color: var(--color-base-white);
+
+    /*------------------- Title Text Color -------------------*/
+    --title-text-color: var(--color-eerie-black);
+}
+
+[data-theme='dark'] {
+    /* Background color Light */
+    --color-background: var(--color-chinese-black);
+
+    /* Button Color Dark */
+    --button-background-color: var(--color-base-white);
+    --button-text-color: var(--color-base-black);
+
+    /*------------------- Title Text Color -------------------*/
+    --title-text-color: var(--color-base-white);
+}
