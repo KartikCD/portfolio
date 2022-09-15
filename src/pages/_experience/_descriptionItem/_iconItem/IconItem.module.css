@@ -1,0 +1,11 @@
+.container {
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 1.6rem;
+  margin-right: 1.6rem;
+}
+
+.svgContainer {
+  width: 2rem;
+  height: 2rem;
+}

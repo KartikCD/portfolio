@@ -1,36 +1,71 @@
 :root {
-    /*--------------------- Colors --------------------- */
-    --color-base-white: #ffffff;
-    --color-base-black: #000000;
-    --color-chinese-black: #111111;
-    --color-eerie-black: #1a1a1a;
+  /*--------------------- Colors --------------------- */
+  --color-base-white: #ffffff;
+  --color-base-black: #000000;
+  --color-chinese-black: #111111;
+  --color-eerie-black: #1a1a1a;
+  --color-anti-flash-white: #f0f0f0;
+  --color-slight-eerie-black: #1f1e1e;
+  --color-silver-sand: #c4c4c4;
+  --color-medium-electric-blue: #004e93;
+  --color-little-boy-blue: #6cace4;
 
-    /*--------------------- Font --------------------- */
-    --font-family: Inter;
+  /*--------------------- Font --------------------- */
+  --font-family: Inter;
 
-    --font-weight-base-light: 300;
-    --font-weight-base-regular: 400;
-    --font-weight-base-medium: 500;
+  --font-weight-base-light: 300;
+  --font-weight-base-regular: 400;
+  --font-weight-base-medium: 500;
 
-    /* Background color Light */
-    --color-background: var(--color-base-white);
+  /* Background color Light */
+  --color-background: var(--color-base-white);
 
-    /* Button Color Light */
-    --button-background-color: var(--color-base-black);
-    --button-text-color: var(--color-base-white);
+  /* Button Color Light */
+  --button-background-color: var(--color-base-black);
+  --button-text-color: var(--color-base-white);
 
-    /*------------------- Title Text Color -------------------*/
-    --title-text-color: var(--color-eerie-black);
+  /*------------------- Title Text Color -------------------*/
+  --title-text-color: var(--color-eerie-black);
+
+  /*------------------- Experience Button Text Color -------------------*/
+  --experience-button-color: var(--color-eerie-black);
+  --experience-button-background-color: transparent;
+  --experience-button-hover-background-color: var(--color-eerie-black);
+  --experience-button-hover-color: var(--color-anti-flash-white);
+  --experience-button-checked-background-color: var(--color-eerie-black);
+  --experience-button-checked-color: var(--color-anti-flash-white);
+
+  /*------------------- Experience Button Text Color -------------------*/
+  --company-name-color: var(--color-eerie-black);
+  --company-duration-color: var(--color-eerie-black);
+  --company-role-color: var(--color-medium-electric-blue);
+  --company-location-color: var(--color-medium-electric-blue);
+  --company-description: var(--color-eerie-black);
 }
 
-[data-theme='dark'] {
-    /* Background color Light */
-    --color-background: var(--color-chinese-black);
+[data-theme="dark"] {
+  /* Background color Light */
+  --color-background: var(--color-chinese-black);
 
-    /* Button Color Dark */
-    --button-background-color: var(--color-base-white);
-    --button-text-color: var(--color-base-black);
+  /* Button Color Dark */
+  --button-background-color: var(--color-base-white);
+  --button-text-color: var(--color-base-black);
 
-    /*------------------- Title Text Color -------------------*/
-    --title-text-color: var(--color-base-white);
+  /*------------------- Title Text Color -------------------*/
+  --title-text-color: var(--color-base-white);
+
+  /*------------------- Experience Button Text Color -------------------*/
+  --experience-button-color: var(--color-silver-sand);
+  --experience-button-background-color: transparent;
+  --experience-button-hover-background-color: var(--color-slight-eerie-black);
+  --experience-button-hover-color: var(--color-silver-sand);
+  --experience-button-checked-background-color: var(--color-slight-eerie-black);
+  --experience-button-checked-color: var(--color-silver-sand);
+
+  /*------------------- Experience Button Text Color -------------------*/
+  --company-name-color: var(--color-base-white);
+  --company-duration-color: var(--color-silver-sand);
+  --company-role-color: var(--color-little-boy-blue);
+  --company-location-color: var(--color-little-boy-blue);
+  --company-description: var(--color-silver-sand);
 }

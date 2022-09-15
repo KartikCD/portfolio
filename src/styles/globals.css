@@ -35,6 +35,11 @@ body {
   -o-transition: background-color 1s; */
 }
 
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
 @media (max-width: 769px) {
   html,
   body {

@@ -1,0 +1,35 @@
+{
+  "experiences": [
+    {
+      "id": "1",
+      "shortName": "ECARMA",
+      "company": "ECARMA - Common Area Maintenance Experts",
+      "role": "Frontend Developer",
+      "duration": "October 2021 – Present",
+      "city": "Bengaluru, India",
+      "description": "Developing ECARMA Management website using <b>Next.js and Typescript</b>. With the help of <b>GraphQL</b> microservices, we are connecting backend building interfaces for backend and frontend communication. Using <b>Storybook</b> for building UI Components and pages for easier UI Development, testing, and documentation."
+    },
+    {
+      "id": "2",
+      "company": "Admire Asia",
+      "shortName": "Admire Asia",
+      "role": "Freelancer Software Engineer – Full Stack",
+      "duration": "October 2021 – Jan 2022",
+      "city": "Pune, India",
+      "description": "Admire Asia is a Luxury Travel Company that plans luxury trips in Asian countries.\nDeveloped the landing page for Admire Asia where users can plan trips for themselves and get details regarding the company.\nDesigned Admin Panel used by the company to manipulate their App's data and follow their business metrics.\nTech Stack and Frameworks: HTML, CSS, JavaScript, React, Context API, Next.js",
+      "website": "https://admireasia.com/"
+    },
+    {
+      "id": "3",
+      "company": "Primary Health Centre Piliv",
+      "shortName": "Primary Health Centre Piliv",
+      "role": "Volunteer Software Developer",
+      "duration": "April 2020 – July 2020",
+      "city": "Solapur, Maharashtra, India",
+      "description": "ASHA is a government body which takes survey across different areas and collect information of families and on analysis they provide different Government schemes to eligible families.\nAuthenticated ASHAs using AWS Amplify and then ASHAs can enter/update family details.\nGraphQL API helps the app to connect with the backend. Retrofit was used to call GraphQL API from the Android app.\nCHW Admin Panel Website which provides analysis of health details of families which helps them to take necessary actions during an emergency.\nTech Stack and Frameworks: Android, Java, AWS Amplify, Retrofit, Apollo GraphQL.",
+      "website": "https://drive.google.com/file/d/1IPi3e2KOkV_28yrEoLJ4BLV0J0pk5pHu/view",
+      "github": "https://github.com/KartikCD/KartikCD/blob/master/ASHA.md",
+      "letter": "https://drive.google.com/file/d/1OXNwl5SqjxVOyzGlhEUEXSzBHJbmZUtW/view"
+    }
+  ]
+}
