@@ -1,0 +1,35 @@
+.container {
+  margin-top: 16.5rem;
+}
+
+.titleText {
+  font-style: normal;
+  font-weight: var(--font-weight-base-light);
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+.titleText p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.gridContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5.8rem;
+  margin-top: 2rem;
+  overflow-x: auto;
+}
+
+.gridContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.descriptionContainer {
+  margin-top: 6.8rem;
+  width: 100%;
+}

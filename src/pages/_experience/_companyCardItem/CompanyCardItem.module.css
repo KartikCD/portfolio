@@ -1,0 +1,29 @@
+.buttonContainer {
+  padding: 1rem 4rem 1rem 4rem;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--experience-button-color);
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+  -ms-border-radius: 0.4rem;
+  -o-border-radius: 0.4rem;
+  cursor: pointer;
+
+  font-style: normal;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-base-light);
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  text-align: justify;
+}
+
+.buttonContainer:hover {
+  background-color: var(--experience-button-hover-background-color);
+  color: var(--experience-button-hover-color);
+}
+
+.checked {
+  color: var(--experience-button-checked-color);
+  background: var(--experience-button-checked-background-color);
+}

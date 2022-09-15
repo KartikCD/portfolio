@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.companyNameContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.locationContainer {
+  margin-top: 1.2rem;
+}
+
+.companyName {
+  font-style: normal;
+  font-weight: var(--font-weight-base-light);
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: var(--company-name-color);
+}
+
+.companyDuration {
+  font-style: normal;
+  font-weight: var(--font-weight-base-light);
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: var(--company-duration-color);
+}
+
+.companyLocation {
+  font-style: normal;
+  font-weight: var(--font-weight-base-light);
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: var(--company-location-color);
+  margin-top: 0.4rem;
+}
+
+.companyRole {
+  font-style: normal;
+  font-weight: var(--font-weight-base-light);
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: var(--company-role-color);
+}
+
+.companyDescription {
+  font-style: normal;
+  font-weight: var(--font-weight-base-light);
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: var(--company-description);
+}
+
+.unOrderList {
+  list-style: none;
+}
+
+.list {
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.list:before {
+  content: "-";
+  padding-right: 0.5rem;
+}
