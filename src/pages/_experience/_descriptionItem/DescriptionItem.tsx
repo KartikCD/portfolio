@@ -57,7 +57,7 @@ const DescriptionItem: React.FC<Props> = React.memo(({ experience }) => {
           {experience?.letter !== undefined ? (
             <IconItem
               href={experience?.letter as unknown as string}
-              data="vector_mail.svg"
+              data="vector_letter.svg"
               alt="Letter"
             />
           ) : (
@@ -65,8 +65,11 @@ const DescriptionItem: React.FC<Props> = React.memo(({ experience }) => {
           )}
         </div>
       </div>
-      <p className={styles.companyDescription}>
+      <div className={styles.companyDescription}>
         <ul className={styles.unOrderList}>{listBullets}</ul>
+      </div>
+      <p className={styles.techStack}>
+        {experience?.stack?.join("\xa0\xa0\xa0-\xa0\xa0\xa0")}
       </p>
     </div>
   );

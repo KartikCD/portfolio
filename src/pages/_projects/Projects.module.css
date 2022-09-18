@@ -1,0 +1,30 @@
+.container {
+  margin-top: 10rem;
+}
+
+.titleText {
+  font-style: normal;
+  font-weight: var(--font-weight-base-light);
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5.7rem;
+  margin-top: 5rem;
+}
+
+.imageContainer {
+  width: 51.1rem;
+  height: 33.8rem;
+  position: relative;
+}
+
+.emptyContainer {
+  margin-top: 10.3rem;
+  border: 0.6px solid var(--partition-border-color);
+}

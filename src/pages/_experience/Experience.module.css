@@ -33,3 +33,8 @@
   margin-top: 6.8rem;
   width: 100%;
 }
+
+.emptyContainer {
+  margin-top: 5rem;
+  border: 0.6px solid var(--partition-border-color);
+}

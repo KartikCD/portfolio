@@ -9,8 +9,23 @@ export interface Experience {
   website?: string;
   github?: string;
   letter?: string;
+  stack?: Array<string>;
 }
 
 export interface Experiences {
   experiences: Array<Experience>;
+}
+
+export interface Project {
+  id: string;
+  project: string;
+  description: string;
+  stack: Array<string>;
+  demo: string;
+  github: string;
+  image: string;
+}
+
+export interface FeaturedProjects {
+  projects: Array<Project>;
 }

@@ -1,0 +1,31 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "project": "Smart Irrigation System App",
+      "description": "Nareshwadi Learning Centre has 12-acre farm where underground water supply is connected. Employees working over there manually operates water flow in the farm. They wanted to Automate the farm. \n<b>AWS Amplify</b> Authentication was set up where on Cognito Userpools, users are added manually and their details are mailed. \nAPI Exposing <b>Lambda Function</b> secured with AWSAuth is called to render the list of Active Valves.\nUsing <b>AWS Pub/Sub</b> Messaging, pump ON/OFF request is published and valve gets ON or OFF.",
+      "stack": ["Android", "Java", "AWS Amplify", "AWS Pub/Sub", "AWS Auth"],
+      "demo": "https://drive.google.com/file/d/1tkulrseDfNh6KDUKRX20MQIbVSpam_pn/view",
+      "github": "https://github.com/KartikCD/KartikCD/blob/master/SIS-App.md",
+      "image": "project_sis.svg"
+    },
+    {
+      "id": "2",
+      "project": "Measure Visual Acuity (MVA)",
+      "description": "Visual Acuity (clearness of vision), usually measured by an eye doctor using a eye chart. You have to visit eye center and then Doctor measures your visual acuity. MVA helps to calculate Visual Acuity of Patient at Home. \nDisplay App: Socket Connection which receives letters from the backend and is displayed on the screen. The patient read those letters. \nRemote App: Sends letter requests and the server sends letters to both apps. \nPatient read the letters on Display App and accordingly Volunteer marks whether read letter is correct or not. \nBased on these inputs Visual Acuity is calculated by the Android app.",
+      "stack": ["Android", "Java", "Socket.io", "Retrofit", "Python", "Flask"],
+      "demo": "https://youtu.be/S_eCNi3r1LA",
+      "github": "https://github.com/KartikCD/KartikCD/blob/master/MVA.md",
+      "image": "project_mva.svg"
+    },
+    {
+      "id": "3",
+      "project": "MediumX",
+      "description": "This app is an exemplary project to show how a Medium.com clone (called MediumX) is built using NativeScript to connect to any other backend from realworld api",
+      "stack": ["Android", "Kotlin", "Retrofit", "Lifecycle", "Coroutines"],
+      "demo": "https://youtu.be/hhR3xYOEwWg",
+      "github": "https://github.com/KartikCD/MediumX",
+      "image": "project_mediumx.svg"
+    } 
+  ]
+}

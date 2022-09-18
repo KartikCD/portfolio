@@ -7,6 +7,7 @@
   --color-anti-flash-white: #f0f0f0;
   --color-slight-eerie-black: #1f1e1e;
   --color-silver-sand: #c4c4c4;
+  --color-slight-silver-sand: #c6c6c6;
   --color-medium-electric-blue: #004e93;
   --color-little-boy-blue: #6cace4;
 
@@ -40,7 +41,16 @@
   --company-duration-color: var(--color-eerie-black);
   --company-role-color: var(--color-medium-electric-blue);
   --company-location-color: var(--color-medium-electric-blue);
+  --company-tech-stack-color: var(--color-medium-electric-blue);
   --company-description: var(--color-eerie-black);
+
+  /*------------------- Partition Color -------------------*/
+  --partition-border-color: var(--color-eerie-black);
+
+  /* Projects Color Light */
+  --project-title-color: var(--color-eerie-black);
+  --project-description-color: var(--color-eerie-black);
+  --project-tech-stack-color: var(--color-medium-electric-blue);
 }
 
 [data-theme="dark"] {
@@ -67,5 +77,14 @@
   --company-duration-color: var(--color-silver-sand);
   --company-role-color: var(--color-little-boy-blue);
   --company-location-color: var(--color-little-boy-blue);
+  --company-tech-stack-color: var(--color-little-boy-blue);
   --company-description: var(--color-silver-sand);
+
+  /*------------------- Partition Color Dark -------------------*/
+  --partition-border-color: var(--color-slight-silver-sand);
+
+  /* Projects Color Dark */
+  --project-title-color: var(--color-base-white);
+  --project-description-color: var(--color-silver-sand);
+  --project-tech-stack-color: var(--color-little-boy-blue);
 }
