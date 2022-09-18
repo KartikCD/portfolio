@@ -27,6 +27,7 @@
 
   /*------------------- Title Text Color -------------------*/
   --title-text-color: var(--color-eerie-black);
+  --scrollbar-color: var(--color-eerie-black);
 
   /*------------------- Experience Button Text Color -------------------*/
   --experience-button-color: var(--color-eerie-black);
@@ -51,6 +52,12 @@
   --project-title-color: var(--color-eerie-black);
   --project-description-color: var(--color-eerie-black);
   --project-tech-stack-color: var(--color-medium-electric-blue);
+
+  /*------------------- Contacts Text Color -------------------*/
+  --contact-text-color: var(--color-eerie-black);
+  --contact-button-border-color: var(--color-slight-silver-sand);
+  --contact-button-text-color: var(--color-eerie-black);
+  --contact-button-border-hover-color: var(--color-base-black);
 }
 
 [data-theme="dark"] {
@@ -63,6 +70,7 @@
 
   /*------------------- Title Text Color -------------------*/
   --title-text-color: var(--color-base-white);
+  --scrollbar-color: var(--color-silver-sand);
 
   /*------------------- Experience Button Text Color -------------------*/
   --experience-button-color: var(--color-silver-sand);
@@ -87,4 +95,10 @@
   --project-title-color: var(--color-base-white);
   --project-description-color: var(--color-silver-sand);
   --project-tech-stack-color: var(--color-little-boy-blue);
+
+  /*------------------- Contacts Text Color -------------------*/
+  --contact-text-color: var(--color-base-white);
+  --contact-button-border-color: var(--color-slight-silver-sand);
+  --contact-button-text-color: var(--color-silver-sand);
+  --contact-button-border-hover-color: var(--color-base-white);
 }

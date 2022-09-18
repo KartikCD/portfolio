@@ -16,11 +16,11 @@ const Projects: React.FC<Props> = React.memo(({ featuredProjects }) => {
   }, [featuredProjects]);
 
   return (
-    <div className={styles.container}>
+    <section className={styles.container} id="projects">
       <p className={styles.titleText}>projects</p>
       <div className={styles.gridContainer}>{listItems}</div>
       <div className={styles.emptyContainer} />
-    </div>
+    </section>
   );
 });
 

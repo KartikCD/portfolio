@@ -6,6 +6,7 @@ import Objective from "./_objective/Objective";
 import { Experiences, FeaturedProjects } from "../data/types";
 import Experience from "./_experience/Experience";
 import Projects from "./_projects/Projects";
+import Footer from "./_footer/Footer";
 
 interface Props {
   exp: Experiences;
@@ -18,6 +19,7 @@ const Home: React.FC<Props> = React.memo(({ exp, proj }) => {
       <Objective />
       <Experience experiences={exp.experiences} />
       <Projects featuredProjects={proj.projects} />
+      <Footer />
     </div>
   );
 });

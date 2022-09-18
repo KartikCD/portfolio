@@ -31,7 +31,7 @@ const ExperienceComponent: React.FC<Props> = React.memo(({ experiences }) => {
   }, [experience, experiences, onExperienceClick]);
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="experiences">
       <p className={styles.titleText}>experience</p>
       <div className={styles.gridContainer}>{listItems}</div>
       {experience !== undefined ? (
