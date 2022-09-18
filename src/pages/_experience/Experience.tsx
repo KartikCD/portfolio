@@ -41,6 +41,7 @@ const ExperienceComponent: React.FC<Props> = React.memo(({ experiences }) => {
       ) : (
         <></>
       )}
+      <div className={styles.emptyContainer} />
     </div>
   );
 });
