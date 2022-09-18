@@ -1,0 +1,42 @@
+.anchor {
+  cursor: pointer;
+  text-decoration: none;
+  border: 0.1rem solid var(--contact-button-border-color);
+  padding: 1.3rem 5.7rem 1.2rem 5.7rem;
+}
+
+.imageContainer {
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+  margin-right: 1.2rem;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container {
+  border: 0.1rem solid var(--contact-button-border-color);
+  padding: 1.3rem 5.7rem 1.2rem 5.7rem;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+  -ms-border-radius: 0.4rem;
+  -o-border-radius: 0.4rem;
+  background: transparent;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: var(--contact-button-text-color);
+  text-decoration: none;
+  font-family: Inter;
+}
+
+.container:hover {
+  border-color: var(--contact-button-border-hover-color) !important;
+}

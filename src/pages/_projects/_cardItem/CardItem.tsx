@@ -16,7 +16,11 @@ const CardItem: React.FC<Props> = React.memo(({ project }) => {
     const exp = project?.description.split("\n");
     return exp?.map((e) => {
       return (
-        <li className={styles.list} dangerouslySetInnerHTML={{ __html: e }} />
+        <li
+          className={styles.list}
+          key={e}
+          dangerouslySetInnerHTML={{ __html: e }}
+        />
       );
     });
   }, [project]);

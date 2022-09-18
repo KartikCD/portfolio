@@ -14,7 +14,11 @@ const DescriptionItem: React.FC<Props> = React.memo(({ experience }) => {
     const exp = experience?.description.split("\n");
     return exp?.map((e) => {
       return (
-        <li className={styles.list} dangerouslySetInnerHTML={{ __html: e }} />
+        <li
+          className={styles.list}
+          key={e}
+          dangerouslySetInnerHTML={{ __html: e }}
+        />
       );
     });
   }, [experience]);

@@ -14,9 +14,9 @@ export const Header = React.memo(() => {
           KartikCD
         </a>
         <div className={styles.menubarGridContainer}>
-          <LinkItem href="#">Projects</LinkItem>
-          <LinkItem href="#">Resume</LinkItem>
-          <LinkItem href="#">Contact</LinkItem>
+          <LinkItem href="#experiences">Experiences</LinkItem>
+          <LinkItem href="#projects">Projects</LinkItem>
+          <LinkItem href="#contact">Contact</LinkItem>
           <button className={styles.buttonStyle} onClick={onClick}>
             <SvgImageContainer
               data={`/images/${theme}/vector_sun.svg`}
