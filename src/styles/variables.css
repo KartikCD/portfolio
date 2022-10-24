@@ -58,6 +58,9 @@
   --contact-button-border-color: var(--color-slight-silver-sand);
   --contact-button-text-color: var(--color-eerie-black);
   --contact-button-border-hover-color: var(--color-base-black);
+
+  /*------------------- Contacts Text Color -------------------*/
+  --profile-image-box-shadow-color: #00000040;
 }
 
 [data-theme="dark"] {
@@ -101,4 +104,7 @@
   --contact-button-border-color: var(--color-slight-silver-sand);
   --contact-button-text-color: var(--color-silver-sand);
   --contact-button-border-hover-color: var(--color-base-white);
+
+  /*------------------- Contacts Text Color -------------------*/
+  --profile-image-box-shadow-color: #ffffff40;
 }

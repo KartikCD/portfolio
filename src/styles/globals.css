@@ -42,7 +42,7 @@ body {
   background-color: var(--color-background);
   font-family: var(--font-family);
   transition-property: background-color, color;
-  transition-duration: 1s;
+  transition-duration: 0.3s;
   /* transition: background-color 1s;
   -webkit-transition: background-color 1s;
   -moz-transition: background-color 1s;
