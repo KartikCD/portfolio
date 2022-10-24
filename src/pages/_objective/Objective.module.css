@@ -1,6 +1,44 @@
 .container {
   margin-top: 13.3rem;
+  display: flex;
+  flex-direction: row;
 }
+
+.containerDetails {
+  flex: 70%;
+}
+
+.containerImage {
+  flex: 30%;
+  margin-left: 1.6rem;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.imageContainer {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  left: 50%;
+  overflow: hidden;
+  top: 10%;
+  border-radius: 1.6rem;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-border-radius: 1.6rem;
+  -moz-border-radius: 1.6rem;
+  -ms-border-radius: 1.6rem;
+  -o-border-radius: 1.6rem;
+  box-shadow: 0 0 0.8rem 0px var(--profile-image-box-shadow-color);
+}
+
+/* .imageContainer:hover {
+  
+} */
 
 .heyText {
   font-style: normal;
