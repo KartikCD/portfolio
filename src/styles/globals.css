@@ -43,11 +43,6 @@ body {
   font-family: var(--font-family);
   transition-property: background-color, color;
   transition-duration: 0.3s;
-  /* transition: background-color 1s;
-  -webkit-transition: background-color 1s;
-  -moz-transition: background-color 1s;
-  -ms-transition: background-color 1s;
-  -o-transition: background-color 1s; */
 }
 
 p {

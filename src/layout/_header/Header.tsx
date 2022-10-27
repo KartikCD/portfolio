@@ -2,7 +2,6 @@ import * as React from "react";
 import { SvgImageContainer } from "../../ui-components";
 import styles from "./Header.module.css";
 import useHeader from "./useHeader";
-import { LinkItem } from "./_lintItem/LinkItem";
 
 export const Header = React.memo(() => {
   const { theme, onClick } = useHeader();
@@ -13,18 +12,13 @@ export const Header = React.memo(() => {
         <a href="#" className={styles.titleText}>
           KartikCD
         </a>
-        <div className={styles.menubarGridContainer}>
-          <LinkItem href="#experiences">Experiences</LinkItem>
-          <LinkItem href="#projects">Projects</LinkItem>
-          <LinkItem href="#contact">Contact</LinkItem>
-          <button className={styles.buttonStyle} onClick={onClick}>
-            <SvgImageContainer
-              data={`/images/${theme}/vector_sun.svg`}
-              svgAlt="Theme"
-              className={styles.svgContainer}
-            />
-          </button>
-        </div>
+        <button className={styles.buttonStyle} onClick={onClick}>
+          <SvgImageContainer
+            data={`/images/${theme}/vector_sun.svg`}
+            svgAlt="Theme"
+            className={styles.svgContainer}
+          />
+        </button>
       </div>
     </div>
   );
