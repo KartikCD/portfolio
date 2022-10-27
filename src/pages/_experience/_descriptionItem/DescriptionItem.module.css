@@ -1,6 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .companyNameContainer {
@@ -84,4 +85,88 @@
 .imageScale {
   width: 2rem;
   height: 2rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .companyNameContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .companyName {
+    font-style: normal;
+    width: 100%;
+    text-align: center;
+    font-weight: var(--font-weight-base-light);
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    color: var(--company-name-color);
+  }
+
+  .companyDuration {
+    font-style: normal;
+    font-weight: var(--font-weight-base-light);
+    font-size: 1.6rem;
+    line-height: 4rem;
+    width: 100%;
+    text-align: center;
+    color: var(--company-duration-color);
+  }
+
+  .techStack {
+    margin-top: 1.2rem;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: var(--company-tech-stack-color);
+    word-wrap: break-word;
+    width: 100%;
+    text-align: center;
+    word-break: keep-all;
+  }
+
+  .locationContainer {
+    margin-top: 1.2rem;
+  }
+
+  .companyLocation {
+    font-style: normal;
+    font-weight: var(--font-weight-base-light);
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: var(--company-location-color);
+    /* margin-top: 0.4rem; */
+    width: 100%;
+    text-align: center;
+  }
+
+  .companyRole {
+    font-style: normal;
+    font-weight: var(--font-weight-base-light);
+    font-size: 1.4rem;
+    width: 100%;
+    text-align: center;
+    line-height: 2.4rem;
+    color: var(--company-role-color);
+  }
+
+  .svgContainer {
+    margin-top: 1.4rem;
+  }
+
+  .companyDescription {
+    font-style: normal;
+    font-weight: var(--font-weight-base-light);
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    color: var(--company-description);
+    text-align: justify;
+  }
 }

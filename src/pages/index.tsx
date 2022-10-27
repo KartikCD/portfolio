@@ -17,7 +17,7 @@ const Home: React.FC<Props> = React.memo(({ exp, proj }) => {
   return (
     <div style={{ paddingBottom: "5rem" }}>
       <Objective />
-      {/* <Experience experiences={exp.experiences} /> */}
+      <Experience experiences={exp.experiences} />
       {/* <Projects featuredProjects={proj.projects} /> */}
       {/* <Footer /> */}
     </div>

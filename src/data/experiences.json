@@ -15,7 +15,7 @@
       "company": "Admire Asia",
       "shortName": "Admire Asia",
       "role": "Freelancer Software Engineer – Full Stack",
-      "duration": "October 2021 – Jan 2022",
+      "duration": "October 2021 – January 2022",
       "city": "Pune, India",
       "description": "Admire Asia is a Luxury Travel Company that plans luxury trips in Asian countries.\nDeveloped the landing page for Admire Asia where users can plan trips for themselves and get details regarding the company.\nDesigned Admin Panel used by the company to manipulate their App's data and follow their business metrics.\nTech Stack and Frameworks: HTML, CSS, JavaScript, React, Context API, Next.js",
       "website": "https://admireasia.com/",
@@ -33,7 +33,7 @@
       "website": "https://drive.google.com/file/d/1IPi3e2KOkV_28yrEoLJ4BLV0J0pk5pHu/view",
       "github": "https://github.com/KartikCD/KartikCD/blob/master/ASHA.md",
       "letter": "https://drive.google.com/file/d/1OXNwl5SqjxVOyzGlhEUEXSzBHJbmZUtW/view",
-      "stack": ["Android", "Java", "AWS Amplify", "Retrofit", "GraphQL"]
+      "stack": ["Android", "Java", "Amplify", "Retrofit", "GraphQL"]
     }
   ]
 }

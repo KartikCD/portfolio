@@ -15,7 +15,7 @@
   font-weight: var(--font-weight-base-light);
   font-size: 1.8rem;
   line-height: 2.4rem;
-  text-align: justify;
+  white-space: nowrap;
 }
 
 .buttonContainer:hover {
