@@ -16,7 +16,7 @@ interface Props {
 const Home: React.FC<Props> = React.memo(({ exp, proj }) => {
   return (
     <div style={{ paddingBottom: "5rem" }}>
-      {/* <Objective /> */}
+      <Objective />
       {/* <Experience experiences={exp.experiences} /> */}
       {/* <Projects featuredProjects={proj.projects} /> */}
       {/* <Footer /> */}

@@ -104,3 +104,108 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .container {
+    margin-top: 2.8rem;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .containerDetails {
+    flex: 0;
+  }
+
+  .heyText {
+    font-style: normal;
+    font-weight: var(--font-weight-base-light);
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    color: var(--title-text-color);
+  }
+
+  .heyText p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  .nameText {
+    font-style: normal;
+    font-weight: var(--font-weight-base-medium);
+    font-size: 6rem;
+    line-height: 6.87rem;
+    background: linear-gradient(
+      89.81deg,
+      #9845e8 -1.72%,
+      #33d2ff 54.05%,
+      #dd5789 99.78%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-top: 1.8rem;
+  }
+
+  .nameText p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  .descriptionText {
+    font-style: normal;
+    font-weight: var(--font-weight-base-light);
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-align: justify;
+    color: var(--title-text-color);
+    margin-top: 2.4rem;
+  }
+
+  .descriptionText p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  .buttonContainer {
+    margin-top: 4.1rem;
+  }
+
+  .button {
+    font-style: normal;
+    font-weight: var(--font-weight-base-light);
+    font-size: 2rem;
+    line-height: 2rem;
+    color: var(--title-text-color);
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .containerImage {
+    flex: 0;
+    display: flex;
+    margin-left: 0;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    margin-bottom: 3.6rem;
+  }
+
+  .imageContainer {
+    position: static;
+    width: 28rem;
+    height: 28rem;
+    overflow: hidden;
+    border-radius: 1.6rem;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    -webkit-border-radius: 1.6rem;
+    -moz-border-radius: 1.6rem;
+    -ms-border-radius: 1.6rem;
+    -o-border-radius: 1.6rem;
+    box-shadow: 0 0 0.8rem 0px var(--profile-image-box-shadow-color);
+  }
+}
