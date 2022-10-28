@@ -2,6 +2,7 @@ import * as React from "react";
 import styles from "./Layout.module.css";
 import useLayout from "./useLayout";
 import { LayoutContextProvider } from "./_context/LayoutContextProvider";
+import Footer from "./_footer/Footer";
 import { Header } from "./_header/Header";
 
 export const Layout: React.FC<
@@ -14,6 +15,7 @@ export const Layout: React.FC<
       <div className={styles.root}>
         <Header />
         {children}
+        <Footer />
       </div>
     </LayoutContextProvider>
   );

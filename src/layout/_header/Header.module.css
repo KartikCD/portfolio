@@ -1,6 +1,16 @@
 .container {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  margin-left: -18rem;
+  margin-right: -18rem;
+  padding-right: 18rem;
+  padding-left: 18rem;
+  position: sticky;
+  top: -0.1rem;
+  z-index: 100;
+  background-color: var(--color-background);
+  transition-property: background-color, color;
+  transition-duration: 0.3s;
 }
 
 .innerContainer {
@@ -14,8 +24,8 @@
 
 .titleText {
   font-style: normal;
-  font-weight: var(--font-weight-base-light);
-  font-size: 2.4rem;
+  font-weight: var(--font-weight-base-bold);
+  font-size: 3rem;
   line-height: 2.9rem;
   color: var(--title-text-color);
   text-decoration: none;
@@ -37,4 +47,51 @@
   background: transparent;
   border: none;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    position: sticky;
+    top: -0.1rem;
+    z-index: 100;
+    background-color: var(--color-background);
+    transition-property: background-color, color;
+    transition-duration: 0.3s;
+  }
+
+  .innerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
+    padding-right: 0;
+  }
+
+  .titleText {
+    font-style: normal;
+    font-weight: var(--font-weight-base-bold);
+    font-size: 2.4rem;
+    line-height: 2rem;
+    color: var(--title-text-color);
+    text-decoration: none;
+  }
+
+  .svgContainer {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .buttonStyle {
+    padding: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
 }

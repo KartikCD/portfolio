@@ -39,7 +39,7 @@ const DescriptionItem: React.FC<Props> = React.memo(({ experience }) => {
           <p className={styles.companyRole}>{experience?.role}</p>
           <p className={styles.companyLocation}>{experience?.city}</p>
         </div>
-        <div>
+        <div className={styles.svgContainer}>
           {experience?.website !== undefined ? (
             <IconItem
               href={experience?.website as unknown as string}

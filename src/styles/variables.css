@@ -17,6 +17,7 @@
   --font-weight-base-light: 300;
   --font-weight-base-regular: 400;
   --font-weight-base-medium: 500;
+  --font-weight-base-bold: 700;
 
   /* Background color Light */
   --color-background: var(--color-base-white);
@@ -48,7 +49,7 @@
   /*------------------- Partition Color -------------------*/
   --partition-border-color: var(--color-eerie-black);
 
-  /* Projects Color Light */
+  /*------------------- Projects Color Light -------------------*/
   --project-title-color: var(--color-eerie-black);
   --project-description-color: var(--color-eerie-black);
   --project-tech-stack-color: var(--color-medium-electric-blue);

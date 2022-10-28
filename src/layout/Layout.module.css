@@ -1,5 +1,14 @@
 .root {
-    margin-left: 18rem;
-    margin-right: 18rem;
-    margin-bottom: 6.1rem;
+  margin-left: 18rem;
+  margin-right: 18rem;
+  margin-bottom: 6.1rem;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .root {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+  }
 }

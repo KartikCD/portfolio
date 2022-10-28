@@ -40,3 +40,15 @@
 .container:hover {
   border-color: var(--contact-button-border-hover-color) !important;
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1.3rem 2rem 1.2rem 2rem;
+  }
+
+  .dataContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
