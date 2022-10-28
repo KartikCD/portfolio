@@ -26,7 +26,7 @@ const CardItem: React.FC<Props> = React.memo(({ project }) => {
   }, [project]);
 
   return (
-    <div>
+    <div className={styles.cardItemContainer}>
       <SvgImageContainer
         className={styles.imageContainer}
         data={`/images/${theme}/${project?.image as string}`}

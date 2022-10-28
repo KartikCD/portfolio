@@ -28,3 +28,18 @@
   margin-top: 10.3rem;
   border: 0.6px solid var(--partition-border-color);
 }
+
+@media (max-width: 768px) {
+  .gridContainer {
+    display: flex;
+    margin-top: 4rem;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .emptyContainer {
+    margin-top: 5rem;
+    border: 0.6px solid var(--partition-border-color);
+  }
+}
