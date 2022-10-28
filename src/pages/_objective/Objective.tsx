@@ -9,13 +9,11 @@ const Objective = React.memo(() => {
         <p className={styles.heyText}>Hey, I’m</p>
         <p className={styles.nameText}>Kartik Chawda</p>
         <p className={styles.descriptionText}>
-          I'm a software engineer based in Toronto, Canada and also a
-          communication and journalism student. I enjoy creating things that
-          live on the internet, whether that be websites, applications, or
-          anything in between. I have been freelancing for a year now while
-          studying at the university and I've manage to gain a decent amount of
-          experience and valuable knowledge from all different kinds of fields
-          throughout my projects/work.
+          I’m a frontend developer based in Mumbai, India. I love creating
+          applications both for web and android. I am currently working as a
+          frontend developer at ECARMA – Common Area Maintenance Experts and
+          I’ve manage to gain a decent amount of experience and valuable
+          knowledge from all kinds of fields throughout my projects/work.
         </p>
         <div className={styles.buttonContainer}>
           <a
