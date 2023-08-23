@@ -19,7 +19,7 @@ const Objective = React.memo(() => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="/resume/KartikChawda_4-3-22.pdf"
+            href="/resume/KartikChawda_15-08-23.pdf"
             className={styles.button}
           >
             Say hi &#x2192;

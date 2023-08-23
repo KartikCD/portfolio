@@ -1,11 +1,21 @@
 {
   "experiences": [
     {
+      "id": "0",
+      "shortName": "Just Dial",
+      "company": "Just Dial",
+      "role": "Software Engineer",
+      "duration": "February 2023 - Present",
+      "city": "Bengaluru, India",
+      "description": "Developing and Maintaining Non Paid Data - Entry Module using <b>React</b>. For maintaining data we are using <b>MySQL</b> Database and for communication with frontend, Backend is developed using <b>express</b> and some standalone API’s using <b>PHP</b>. <b>Webpack</b> as a Module Bundler is used to build project during production.",
+      "stack": ["React", "JavaScript", "PHP", "Express", "MySQL"]
+    },
+    {
       "id": "1",
       "shortName": "ECARMA",
       "company": "ECARMA - Common Area Maintenance Experts",
       "role": "Frontend Developer",
-      "duration": "October 2021 – Present",
+      "duration": "October 2021 – February 2023",
       "city": "Bengaluru, India",
       "description": "Developing ECARMA Management website using <b>Next.js and Typescript</b>. With the help of <b>GraphQL</b> microservices, we are connecting backend building interfaces for backend and frontend communication. Using <b>Storybook</b> for building UI Components and pages for easier UI Development, testing, and documentation.",
       "stack": ["Next.js", "TypeScript", "GraphQL", "Storybook", "React"]
